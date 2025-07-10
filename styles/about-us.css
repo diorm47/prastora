@@ -1,0 +1,224 @@
+.about_header {
+  border-radius: 40px;
+  margin-bottom: 80px;
+  background: rgb(241, 238, 251);
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about_header_desc {
+  width: 55%;
+}
+.about_header_desc h1 {
+  /* Regular Title */
+  color: rgb(19, 16, 25);
+  font-family: Mulish;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.about_header_desc p {
+  /* Long texts Small Subtitle */
+  color: rgb(48, 43, 57);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+.whous_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.whous_card {
+  position: relative;
+  height: 510.94px;
+  width: 100%;
+  border-radius: 60px;
+  background: url(../assets/images/whowe-bg.png);
+  background-size: cover;
+  padding: 40px;
+}
+.whous_card img {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 16px;
+}
+.whous_card h4 {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  /* Subtitle */
+  color: rgb(77, 28, 136);
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.whous_card_desc p {
+  /* Subtitle */
+  color: rgb(77, 28, 136);
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.whous_card_desc span {
+  /* Regular Body */
+  color: rgb(48, 43, 57);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.quote_block {
+  padding: 160px 0;
+}
+
+.quote_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quote_block_text {
+  max-width: 582px;
+}
+
+.quote_block_text img {
+  margin-bottom: 20px;
+}
+
+.quote_block_text p {
+  /* Body Large */
+  color: rgb(48, 43, 57);
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.about_moto {
+  padding-bottom: 80px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.about_moto h2 {
+  /* Regular Title */
+  color: rgb(19, 16, 25);
+  font-family: Mulish;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.about_moto_desc {
+  width: 52%;
+}
+
+.about_moto_desc p {
+  margin-bottom: 20px;
+  /* Long texts Small Subtitle */
+  color: rgb(19, 16, 25);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.about_moto_desc div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.about_moto_desc span {
+  /* Large Higlight */
+  color: rgb(103, 53, 157);
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.command_workers {
+  background: rgb(226, 223, 242);
+  padding: 80px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
+margin-left: -30px;
+  gap: 40px;
+}
+
+.command_worker {
+  border-radius: 40px;
+  padding: 10px 40px 10px 10px;
+  background: rgb(249, 249, 252);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 490px;
+  height: 120px;
+}
+
+.command_worker img {
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.command_worker p {
+  /* Long texts Small Subtitle */
+  color: rgb(77, 28, 136);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.command_worker span {
+  /* Пакінуць Каментар */
+  color: rgb(48, 43, 57);
+  font-family: Mulish;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0px;
+  text-align: left;
+}
