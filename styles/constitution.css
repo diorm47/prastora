@@ -301,3 +301,19 @@
   padding: 8px 10px 8px 10px;
   background: rgb(121, 57, 204);
 }
+
+@media only screen and (max-width: 500px) {
+  .articles_list_block,
+  .comments_block {
+    display: none;
+  }
+  .article_block {
+    width: 100%;
+  }
+  .cons_img {
+    display: none;
+  }
+  .about_header_desc {
+    width: 100%;
+  }
+}
