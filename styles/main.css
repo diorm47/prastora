@@ -523,17 +523,17 @@ nav {
   align-items: flex-end;
 }
 
-.news_cards .news_card:nth-child(1) {
+.news_card1 {
   background: url(../assets/images/news-1.png);
   background-size: cover;
   background-position: center;
 }
-.news_cards .news_card:nth-child(2) {
+.news_card2 {
   background: url(../assets/images/news-2.png);
   background-size: cover;
   background-position: center;
 }
-.news_cards .news_card:nth-child(3) {
+.news_card3 {
   background: url(../assets/images/news-3.png);
   background-size: cover;
   background-position: center;
@@ -1224,12 +1224,58 @@ footer {
   padding-top: 20px;
   padding-bottom: 50px;
 }
-.mob_menu {
+.mob_menu_btn {
   cursor: pointer;
   display: none;
 }
 .header_sec_content h5 {
   display: none;
+}
+.swiper_pagination,
+.swiper {
+  display: none !important;
+}
+
+.mob_menu {
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 11;
+  position: fixed;
+  background: rgba(241, 238, 251);
+  padding: 20px 10px;
+  transition: all 0.4s ease;
+  transform: translateX(100%);
+}
+.active_mob_menu {
+  transition: all 0.4s ease;
+  transform: translateX(0);
+}
+
+.mob_exit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.mob_exit img {
+  width: 20px;
+}
+.mob_menu .nav_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+  padding-top: 30px;
+}
+.mob_menu .nav_search input {
+  width: 100%;
+  margin: 30px 0;
+}
+.mob_menu_actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 @media only screen and (max-width: 1400px) {
   .header_wrapper,
@@ -1284,7 +1330,7 @@ footer {
     padding: 0;
     margin: 0;
   }
-  .mob_menu {
+  .mob_menu_btn {
     display: block;
   }
   .main_header {
@@ -1524,7 +1570,7 @@ footer {
     border-radius: 20px;
   }
   .card_link {
-    right: -11px;
+    right: -13px;
   }
   .news_block {
     padding-bottom: 80px;
@@ -1855,5 +1901,47 @@ footer {
   }
   .not_found img {
     width: 200px;
+  }
+  .how_it_works .howtw_cards {
+    display: none;
+  }
+  .howt_car {
+    width: 100%;
+    position: relative;
+  }
+  .howtw_card {
+    height: 415px;
+  }
+  .swiper_pagination,
+  .swiper {
+    display: flex !important;
+  }
+  .swiper_pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .swiper-pagination-bullet {
+    width: 8px !important;
+    height: 8px !important;
+    background: rgb(105, 96, 122) !important;
+    cursor: pointer;
+  }
+  .swiper-pagination-bullet-active {
+    background: rgb(160, 124, 227) !important;
+  }
+  .last_projects .last_project_cards,
+  .news_block .news_cards {
+    display: none;
+  }
+  .news_card {
+    width: 97%;
+  }
+  .footer_main_left,
+  .footer_email,
+  .footer_email a {
+    width: 100%;
   }
 }

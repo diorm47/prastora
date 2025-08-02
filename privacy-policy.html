@@ -29,8 +29,36 @@
           <button class="nav_btn">Donate</button>
           <button class="nav_btn lang_toggler">BEL</button>
         </div>
+        <img
+          onclick="toggleMenu()"
+          class="mob_menu_btn"
+          src="./assets/icons/mob-menu.svg"
+          alt=""
+        />
       </div>
     </nav>
+    <div class="mob_menu">
+      <div class="mob_exit">
+        <img onclick="toggleMenu()" src="./assets/icons/exit.svg" alt="" />
+      </div>
+      <div class="mob_menu_content">
+        <div class="nav_menu">
+          <a href="./constitution.html"><p>Канстытуцыя</p></a>
+          <a href="./projects.html"><p>Праекты</p></a>
+          <a href="./news.html"><p>Навіны</p></a>
+          <a href="./about-us.html"><p>Пра нас</p></a>
+          <a href="./faq.html"><p>FAQ</p></a>
+        </div>
+        <div class="nav_search">
+          <img src="./assets/icons/lupa.svg" alt="" />
+          <input type="text" placeholder="Пошук..." />
+        </div>
+        <div class="mob_menu_actions">
+          <button class="nav_btn">Donate</button>
+          <button class="nav_btn lang_toggler">BEL</button>
+        </div>
+      </div>
+    </div>
 
     <div class="colored_w container">
       <div class="policy_container">
@@ -143,5 +171,6 @@
         </div>
       </div>
     </footer>
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
